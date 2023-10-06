@@ -7,5 +7,6 @@ RUN go build -o ./main
 
 ENV PORT 8081
 EXPOSE 8081
+EXPOSE 8082
 
 CMD [ "./main" ]
